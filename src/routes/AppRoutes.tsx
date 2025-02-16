@@ -3,7 +3,7 @@ import Layout from '../components/layout/Layout';
 
 const Home = () => <div>Home</div>;
 const Dashboard = () => <div>Dashboard</div>;
-const Setting = () => <div>Setting</div>;
+const Settings = () => <div>Settings</div>;
 
 const AppRoutes = () => (
   <Router>
@@ -11,7 +11,7 @@ const AppRoutes = () => (
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="dashboard" element={<Dashboard />} />
-        <Route path="setting" element={<Setting />} />
+        <Route path="settings" element={<Settings />} />
       </Route>
     </Routes>
   </Router>
